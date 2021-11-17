@@ -1,0 +1,18 @@
+# @package _group_
+name: sc_dataset.OCTSchlemmsCanalDataset
+params:
+  root_dir: data/mouse_schlemm_sv5_361x440_8bit
+  fp: data/sc_data_master.csv
+  max_iop:
+transform: True
+mean:
+  - 0.31286806
+std:
+  - 0.24120174
+image_size:
+  - 361
+  - 440
+inputs:
+  - 'image'
+labels:
+  - 'Mean Intensity'

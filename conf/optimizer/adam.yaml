@@ -1,0 +1,7 @@
+# @package _group_
+name: torch.optim.Adam
+params:
+  lr: 0.001
+  betas:
+    - 0.9
+    - 0.999

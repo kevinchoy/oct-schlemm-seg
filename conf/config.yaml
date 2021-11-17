@@ -1,0 +1,8 @@
+defaults:
+  - dataset: sc_speckle5_361-440_pigmented_high_quality_n32
+  - data_aug: default_transforms
+  - model: unet2d
+  - loss: dsc
+  - optimizer: nesterov
+  - args: default_training
+

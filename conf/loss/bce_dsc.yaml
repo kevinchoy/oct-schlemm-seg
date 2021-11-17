@@ -1,0 +1,5 @@
+loss:
+  name: losses.BCEDiceLoss
+  params:
+    alpha: 0.5
+    beta: 0.5

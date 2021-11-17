@@ -1,0 +1,7 @@
+model:
+  name: models.networks.UNet2dAttentionDsvMultiscale
+  params:
+    n_classes: 1
+    in_channels: 2
+    feature_scale: 1
+    is_deconv: True

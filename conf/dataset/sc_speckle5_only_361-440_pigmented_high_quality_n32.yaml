@@ -1,0 +1,18 @@
+# @package _group_
+name: sc_dataset.OCTSchlemmsCanalDataset
+params:
+  root_dir: /home/kevin/Projects/oct_sc_segmentation/data_root/sc_datasets/sc_speckle5_361-440_pigmented_high_quality_n32
+  fp: /home/kevin/Projects/oct_sc_segmentation/OCT-SchlemmsCanal-Seg/sc_data_master.csv
+  max_iop:
+transform: True
+mean:
+  - 0.38768676
+std:
+  - 0.14950362
+image_size:
+  - 361
+  - 440
+inputs:
+  - 'speckled_var'
+labels:
+  - 'Speckle Variance'

@@ -1,0 +1,4 @@
+loss:
+  name: torch.nn.BCEWithLogitsLoss
+  params:
+    weight:

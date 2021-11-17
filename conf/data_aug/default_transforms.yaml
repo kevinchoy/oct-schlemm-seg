@@ -1,0 +1,8 @@
+# @package _group_
+random_translate:
+  - 0.2
+  - 0.2
+random_rotate: 30
+random_scale:
+  - 0.75
+  - 1.25
